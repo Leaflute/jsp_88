@@ -12,7 +12,7 @@
  -->
  <%
  	int iAge = Integer.parseInt(request.getParameter("age"));
- 
+	
  %>
  	당신은 <%= iAge %>세이므로 미성년자입니다. 주류 구매가 가능합니다. <br>
  	<a href="3_request.jsp">처음으로 이동</a>

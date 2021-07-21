@@ -22,5 +22,11 @@
 	
 	<h3> 서블릿 </h3>
 	Servlet은 java를 이용해 문서를 작성하고, 출력 객체를 이용해 HTML코드를 삽입한다.
+	
+	<h3> 한글 깨짐 방지</h3>
+	1. Servers > server.xml, 63행에 URIEncoding="UTF-8" 추가
+	<!-- <Connector URIEncoding="UTF-8" connectionTimeout="20000" port="80" protocol="HTTP/1.1" redirectPort="8443"/>
+ 	-->
+ 	2. 톰캣 서버 중지하고 -> publish to the server 클릭
 </body>
 </html>
