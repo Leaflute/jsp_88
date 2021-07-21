@@ -1,6 +1,6 @@
 package useBean;
 
-import java.util.Date;
+/*import java.util.Date;*/
 
 // DTO(Data Transfer Object
 // 화면 input값 -> setter -> 멤버변수 -> getter -> DB insert
@@ -10,7 +10,7 @@ public class MemberInfo {
 	private String password;
 	private String name;
 	private String address;
-	private Date registerDate;
+	// private Date registerDate;
 	private String email;
 	
 	// 생성자
@@ -51,13 +51,12 @@ public class MemberInfo {
 		this.address = address;
 	}
 	
-	public Date getRegisterDate() {
-		return registerDate;
-	}
-	
-	public void setRegisterDate(Date registerDate) {
-		this.registerDate = registerDate;
-	}
+	/*
+	 * public Date getRegisterDate() { return registerDate; }
+	 * 
+	 * public void setRegisterDate(Date registerDate) { this.registerDate =
+	 * registerDate; }
+	 */
 	
 	public String getEmail() {
 		return email;

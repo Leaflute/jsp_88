@@ -27,7 +27,7 @@
 				<td> 폰번호 : </td>
 				<td><input type="text" name="userPhone" size="15"></td>
 			</tr>
-			<tr>'
+			<tr>
 				<td colspan="2" align="center"> 
 					<input type="submit" value="전송">
 					<input type="reset" value="취소">

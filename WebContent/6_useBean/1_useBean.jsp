@@ -20,7 +20,7 @@
 	member.setName("홍길동");
 	member.setAddress("서울 서초 반포");
 	Date date = new Date();
-	member.setRegisterDate(date);
+	/* member.setRegisterDate(date); */
 	member.setEmail("email@email.com");
 	
 	// getter로 값 가져와서 출력 (전달받은 멤버변수의 값을 가져움)
@@ -28,7 +28,7 @@
 	out.print(member.getPassword()+"<br>");
 	out.print(member.getName()+"<br>");
 	out.print(member.getAddress()+"<br>");
-	out.print(member.getRegisterDate()+"<br>");
+	/* out.print(member.getRegisterDate()+"<br>"); */
 	out.print(member.getEmail()+"<br>");
 %>	
 	<!-- 표현식을 이용해 값 출력 -->
@@ -36,7 +36,7 @@
 	비밀번호: <%=member.getPassword() %><br>
 	이름: <%=member.getName() %><br>
 	주소: <%=member.getAddress() %><br>
-	가입일: <%=member.getRegisterDate() %><br>
+	<%-- 가입일: <%=member.getRegisterDate() %><br> --%>
 	이메일: <%=member.getEmail() %>
 </body>
 </html>

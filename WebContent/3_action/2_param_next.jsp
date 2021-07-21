@@ -9,11 +9,11 @@
 <body>
 <%
 	String jenre = request.getParameter("jenre");
-	String star = request.getParameter("star");
-	if (jenre == null || star == null) return;
+	int star = Integer.parseInt(request.getParameter("star"));
+	if (jenre == null || star == 0) return;
 %>
 </body>
-<table width="100%" border="1" cellpadding="0" cellspacing="0">
+<table width="200" border="1" cellpadding="0" cellspacing="0">
 	<tr>
 		<td>장르</td>
 		<td>
@@ -36,10 +36,32 @@
 	}
 	
 %>
+	</td>
 	</tr>
 	
 	<tr>
 		<td>별점</td>
+		<td>
+<%
+	switch(star) {
+		case 1 : out.print("내 아름다운 사랑아"); 			
+			break;
+
+		case 2 : out.print("여전히 나는"); 			
+			break;
+
+		case 3 : out.print("네 모습인데"); 			
+			break;
+
+		case 4 : out.print("또 다른 사랑 배워갈"); 			
+			break;	
+
+		case 5 : out.print("그대 가슴에"); 			
+			break;	
+	}
+	
+%>		
+	</td>
 	</tr>
 </table>
 </html>

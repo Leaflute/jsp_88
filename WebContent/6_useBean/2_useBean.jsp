@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.util.Date" %>    
-<!-- useBean 앣ㄴ태그를 이용해 객체 생성 -->
+<!-- useBean 액션태그를 이용해 객체 생성 -->
 <jsp:useBean id="info" class="useBean.MemberInfo"/>
 <!DOCTYPE html>
 <html>
