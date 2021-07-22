@@ -1,0 +1,26 @@
+JSP면접
+
+1. WAS
+웹 어플리케이션을 수행하는 미들웨어로, 웹서버와 JSP/servlet 어플리케이션 수행을 위한 엔진
+
+2. JDBC의 개념
+
+3. 전송방식 POST와 GET의 차이
+
+4. 커넥션 풀 - DBCP
+
+5. useBean으로 객체 생성
+<jsp:useBean id="info" class="userBean.MemberInfo" />
+
+<%
+   String strId = request.getParameter("id");
+%>
+<jsp:setProperty name="info" property="id" value="<%= strId %>" />
+<jsp:getProperty name="info" property="id" />
+
+6. 모델1과 2의 차이(p517)
+
+7. MVC개념(p518~522)
+회원가입처리를 한다면 MVC로 어떻게할지 구술로 로직 표현
+
+8. 쿠키/세션

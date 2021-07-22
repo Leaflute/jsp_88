@@ -23,7 +23,7 @@
 	String dbPassword = "tiger";
 %>
 
-<h3> 회원목록</h3>
+<h3> 회원목록 </h3>
 
 <%
 	//한글 깨지지 않도록 처리
@@ -96,7 +96,6 @@ CREATE TABLE member_tbl (
     member_name VARCHAR2(20),
     member_address VARCHAR2(100)
 );
-
 
 INSERT INTO member_tbl(member_id, member_password, member_name, member_address)
 VALUES('hong', '1234', '홍길동', '서울');
