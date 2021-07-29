@@ -1,2 +1,13 @@
 <jsp 프로젝트 >
 1. 공통부분은 include file 사용 p168
+
+2. HTML 화면소스
+-> JSP 플젝
+login.html복붙
+
+header.jsp. footer.jsp -> include로 가져옴
+dao는 하나
+컨트롤러, 서비스는 카테고리 구분
+멤버 구분 -> 관리자 고객
+
+로그인 회원가입 수정 탈퇴 -> 8/2
