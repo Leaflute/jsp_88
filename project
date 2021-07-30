@@ -5,6 +5,8 @@
 -> JSP 플젝
 login.html복붙
 
+context.xml에 jsp_88_pj 계정 추가
+
 header.jsp. footer.jsp -> include로 가져옴
 dao는 하나
 컨트롤러, 서비스는 카테고리 구분
