@@ -5,11 +5,16 @@
 -> JSP 플젝
 login.html복붙
 
-context.xml에 jsp_88_pj 계정 추가
+3. 에러 처리 페이지
+
+context.xml에 자기 계정 추가
 
 header.jsp. footer.jsp -> include로 가져옴
-dao는 하나
+dao는 여러개
 컨트롤러, 서비스는 카테고리 구분
 멤버 구분 -> 관리자 고객
 
 로그인 회원가입 수정 탈퇴 -> 8/2
+
+관리자페이지 - 게시판성 페이지 마무리(파일 업로드 제외) - 8/8
+고객페이지 - 게시판 마무리
